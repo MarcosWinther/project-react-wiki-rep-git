@@ -18,5 +18,6 @@ export const InputContainer = styled.div`
       padding: 0 20px;
       color: #FFFFFF;
       font-size: 20px;
+      outline: none;
    }
 `
