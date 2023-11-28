@@ -35,7 +35,14 @@ function App() {
 
   return (
     <Container>
-      <img src={gitLogo} width={72} height={72} alt="logo GitHub" />
+      <section>
+        <img src={gitLogo} width={72} height={72} alt="logo GitHub" />
+        <h1>Wiki Repository GitHub</h1>
+      </section>
+      <p className='guide'>
+        Pesquise pelo repositório com username e nome do projeto. 
+        <br/>Ex.: usergithub/name-project
+      </p>
       <Input value={currentRepo} onChange={(e) => setCurrentRepo(e.target.value)} />
       <Button onClick={handleSearchRepo} />
       {repos.map(repo => <ItemRepo handleRemoveRepo={handleRemoveRepo} repo={repo} />)}

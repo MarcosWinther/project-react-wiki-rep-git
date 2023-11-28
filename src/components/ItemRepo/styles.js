@@ -4,7 +4,7 @@ export const ItemContainer = styled.div`
    width: 80%;
 
    h3 {
-      font-size: 32px;
+      font-size: 30px;
       color: #FAFAFA;
    }
 
@@ -12,6 +12,14 @@ export const ItemContainer = styled.div`
       font-size: 16px;
       color: #FAFAFA60;
       margin-bottom: 20px;
+   }
+
+   a {
+      text-decoration: none;
+   }
+
+   a:hover {
+      font-size: 20px;
    }
 
    a.remove {
